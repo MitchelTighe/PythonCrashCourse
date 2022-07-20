@@ -8,3 +8,6 @@ shirts()
 shirts(size='medium')
 
 shirts(size='small', text='I love perl')
+
+shirts(size='extra large')
+
