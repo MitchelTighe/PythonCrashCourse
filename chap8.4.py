@@ -8,7 +8,7 @@ cities_name = format_cities('Washington DC', 'United States of America')
 print(cities_name)
 
 def city_dict(city, country):
-    formatted = {'city': city, 'country': country}
+    formatted = {'city': city.title(), 'country': country.title()}
     return formatted
 
 test_build = city_dict('boulder', 'united states of america')
