@@ -1,5 +1,6 @@
 #!/bin/python3
 
+
 def format_cities(city, country):
     name = f"{city.title()}, {country.title()}"
     return name.title()
