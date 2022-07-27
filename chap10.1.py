@@ -1,3 +1,7 @@
-#!/bin/python
+#!/bin/python3
+
+with open('digits.txt') as file_object:
+    contents = file_object.read()
+print(contents)
 
 
